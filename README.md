@@ -11,11 +11,11 @@
 ---
 hwp의 txt변환은 pyhwp를 이용했습니다.  
 
-* anaconda prompt:  
+anaconda prompt:  
   1. pip install pyhwp  
   2. cd로 파일이 있는 폴더로 이동  
     * 예) cd data  
   3. hwp5txt "회의록.hwp" --output "meeting_log.txt"  
     * 단 표나 그림은 <표>,<그림> 등으로 출력됩니다.  
     
-* 참고: [공식문서](https://pyhwp.readthedocs.io/en/latest/converters.html#hwp5txt-text-conversion)
+참고: [공식문서](https://pyhwp.readthedocs.io/en/latest/converters.html#hwp5txt-text-conversion)
